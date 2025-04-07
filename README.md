@@ -3,17 +3,14 @@
 A specialized AI agent focused on the finance domain that can provide information about stocks, cryptocurrencies, financial news, and more. This agent follows a structured reasoning process using Start, Plan, Action, Observation, and Output states.
 
 ## Features
-- Real-time stock price information and historical data analysis
-- Cryptocurrency market tracking and trend analysis
-- Currency exchange rates and conversion calculations
-- Financial news aggregation and sentiment analysis
-- Investment return calculations and portfolio optimization
-- Market trend predictions and insights
-- Personalized financial advice based on user goals
-- Interactive data visualizations for financial metrics
-- Automated financial report generation
-- Alert system for significant market movements
-
+Real-time Stock Prices: Fetches current stock prices via Alpha Vantage API
+Cryptocurrency Data: Gets crypto prices from CoinMarketCap or CoinGecko APIs
+Currency Conversion: Converts between different currencies
+Financial News: Provides latest financial headlines
+Investment Calculations: Computes investment returns using compound/simple interest formulas
+Fallback Mechanisms: Uses mock data when APIs fail or are unavailable
+Robust Error Handling: Gracefully manages API failures
+Comprehensive Pattern Recognition: Matches various ways users might phrase financial questions
 
 ## Getting Started
 
